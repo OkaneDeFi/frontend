@@ -1,0 +1,554 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {	
+    font-family: 'Gilroy';
+    font-size: 16px;
+    font-weight: normal;    
+	background: #fff;
+	color: #333333;	
+}
+
+a:hover {text-decoration: none;}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+::selection {
+    color: white; 
+    background: #ff7675;
+}
+
+::-webkit-selection {
+    color: white; 
+    background: #ff7675;
+}
+
+::-moz-selection {
+    color: white; 
+    background: #ff7675;
+}
+
+.scrolltotop {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px 20px 0 0;
+    background: rgba(0,0,0,.5);
+    display: block;
+    text-align: center;
+    padding-top: 8px;
+    font-size: 22px;
+    color: #ffffff;
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    display: none;
+    transition: 0.2s all ease;
+    -webkit-transition: 0.2s all ease;
+    -moz-transition: 0.2s all ease;
+}
+
+.scrolltotop:hover {   
+    background: #000;
+    color: #fff;
+    box-shadow: 0px 0px 5px rgba(0,0,0,.5);
+    -webkit-box-shadow: 0px 0px 5px rgba(0,0,0,.5);
+    -moz-box-shadow: 0px 0px 5px rgba(0,0,0,.5);   
+}
+
+
+
+/* -- header area start -- */
+header {
+    background-color: #3E4855;
+    position: relative;
+    z-index: 9999;
+    padding: 10px 0px;
+}
+
+header:after {
+    content: "";
+    display: block;
+    width: 50%;
+    height: 92%;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    border-radius: 0px 0px 14px 14px;
+}
+
+.header-logo a img {
+    display: inline-block;
+    width: 75px;
+}
+
+.header-bar {
+    width: 30px;
+    cursor: pointer;
+}
+
+.header-bar span {
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: #FF685D;
+    border-radius: 6px;
+    margin: 4px 0px;
+}
+
+.header-left,
+.header-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-right-one {
+    margin-left: 30px;
+}
+
+.header-right {
+    width: 100%;
+}
+
+.header-right-one ul li {
+    display: inline-block;
+}
+
+.header-right-one ul li a {
+    display: inline-block;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #3E4855;
+    margin-left: 30px;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+}
+
+.header-right-one ul li a:after {
+    content: "";
+    display: inline-block;
+    width: 0%;
+    height: 24px;
+    background: #FF685D;
+    position: absolute;
+    left: 0;
+    top: 29px;
+    transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+}
+
+.header-right-one ul li a.active:after {
+    width: 100%;
+}
+
+.header-right-one ul li a.active {
+    color: #FF685D;
+}
+
+.header-right-one ul li a:hover:after {
+    width: 100%;
+}
+
+.header-right-two {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-right-balance ul  {
+    text-align: center;
+}
+
+.header-right-balance ul li {
+    display: inline-block;
+}
+
+.header-right-balance ul li img {
+    display: inline-block;
+    width: 50px;
+    margin-right: 5px;
+}
+
+.header-right-balance ul li span {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    position: relative;
+    top: 2px;
+}
+
+.header-right-balance ul li:nth-child(2) {
+    margin: 0px 25px;
+}
+
+.header-right-connect a {
+    display: inline-block;
+    font-size: 17px;
+    color: #3E4855;
+    text-transform: uppercase;
+    background-color: #FF685D;
+    padding: 12px 10px;
+    border-radius: 8px;
+    margin-left: 25px;
+    transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    font-weight: 500;
+}
+
+.header-right-connect a:hover {
+   color: #fff;
+}
+
+/* -- header area end -- */
+
+/* -- welcome area start -- */
+.welcome-left-heading h5 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #3E4855;
+    margin-bottom: 0;
+    line-height: .5;
+}
+
+.welcome-left-heading h2 {
+    margin-bottom: 0;
+    font-size: 80px;
+    font-weight: 700;
+    color: #3E4855;
+}
+
+.welcome-left-heading h2 span {
+    color: #68EBCA;
+}
+
+.welcome-text p {
+    margin-bottom: 0;
+    color: #3E4855;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.welcome-right img {
+    display: block;
+    width: 70%;
+    margin-left: auto;
+}
+
+.welcome-left-heading {
+    margin-bottom: 4px;
+}
+
+.welcome-btc p {
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #3E4855;
+    line-height: 1.2;
+    margin-top: 5px;
+}
+
+.welcome-btc p span {
+    display: inline-block;
+    color: #FF685D;
+}
+
+.welcome-join p {
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: #3E4855;
+    line-height: 1.2;
+    margin-top: 12px;
+    margin-left: 50px;
+}
+
+.welcome-join span {
+    width: 230px;
+    height: 3px;
+    background-color: #FF685D;
+    display: block;
+    margin-left: 78px;
+    margin-top: 13px;
+}
+
+#welcome {
+    padding: 15px 0px;
+    padding-top: 35px;
+}
+
+/* -- welcome area end -- */
+
+/* -- lock area start -- */
+#lock {
+    background-color: #FF685D;
+}
+
+.lock-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lock-left {
+    border-right: 4px solid #3E4754;
+    padding: 18px 65px 18px 0px;
+}
+
+.lock-left p {
+    margin-bottom: 0;
+    font-size: 18px;
+    color: #3E4855;
+    font-weight: 600;
+}
+
+.lock-left h3 {
+    margin-bottom: 0;
+    font-size: 48px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.lock-right ul li {
+    display: inline-block;
+}
+
+.lock-right ul li a {
+    display: inline-block;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #3E4855;
+    background-color: #68EBCA;
+    border-radius: 6px;
+    padding: 12px 15px;
+    margin-left: 15px;
+    transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    font-weight: 500;
+}
+
+.lock-right ul li a:hover {
+    opacity: .7;
+}
+
+/* -- lock area end -- */
+
+/* -- coin area start -- */
+#coin {
+    padding-bottom: 30px;
+}
+
+.coin-one {
+    background-color: #DCF1FF;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+    box-shadow: 0px 3px 6px rgba(0,0,0,.16) inset;
+}
+
+.coin-one-heading img {
+    display: inline-block;
+    width: 130px;
+    margin-bottom: 10px;
+}
+
+.coin-one-heading h4 {
+    color: #3E4855;
+    font-size: 30px;
+    margin-bottom: 10px;
+    line-height: 1;
+}
+
+.coin-amount p {
+    margin-bottom: 0;
+    font-size: 18px;
+    color: #3E4855;
+    font-weight: 400;
+}
+
+.coin-amount h3 {
+    margin-bottom: 0;
+    font-size: 22px;
+    line-height: 1;
+}
+
+.coin-text p {
+    margin-bottom: 0;
+    line-height: 1.2;
+    font-weight: normal;
+    color: #3E4855;
+}
+
+/* -- coin area end -- */
+
+/* -- footer area start -- */
+footer {
+    background-color: #3E4855;
+    padding: 10px 0px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.footer-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-left p {
+    margin-bottom: 0;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.footer-right ul li {
+    display: inline-block;
+    margin-left: 18px;
+}
+
+.footer-right ul li a {
+    display: inline-block;
+    color: #fff;
+    font-size: 26px;
+    transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+}
+
+.footer-right ul li a:hover {
+    color: #FF685D;
+}
+
+/* -- footer area end -- */
+
+/* =================================
+    page-two start
+================================= */
+.page-two {
+    height: 100vh;    
+}
+
+#comingsoon {
+    height: calc(100vh - 154px);
+    position: relative;
+    background-image: url(../img/graph.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.coming-wrapper h2 {    
+    margin-bottom: 0;
+    font-size: 65px;
+    color: #fff;
+}
+
+.coming-wrapper {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.coin-text p#flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+
+.coin-text {
+    padding: 0px 5px;
+    margin-top: 6px;
+}
+
+.coin-text p {
+    margin-bottom: 8px;
+}
+
+.cointext-two {
+    padding: 0px 5px;
+}
+
+.meta a {
+    display: inline-block;
+    background-color: #DCF1FF;
+    border: 2px solid;
+    color: #ff7f6e;
+    border-radius: 42px;
+    padding: 6px 12px;
+    transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+}
+
+.meta a:hover {
+    border: 2px solid;
+    color: #ffbe54;;
+}
+
+.meta a img {
+    display: inline-block;
+    width: 22px;
+    margin-bottom: 0px;
+    position: relative;
+    top: -2px;
+}
+
+.meta a span {
+    display: inline-block;
+    font-size: 19px;
+    font-weight: bold;
+    margin-left: 3px;
+    margin-bottom: 0;
+}
+
+.coin-one-heading > img {
+    margin-top: -10px;
+}
+
+.coming-wrapper a {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 500;
+    color: #111113;
+    background-color: #FFB917;
+    text-transform: uppercase;
+    border-radius: 6px;
+    padding: 8px 25px;
+    transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    margin-bottom: 10px;
+}
+
+.coming-wrapper a:hover {
+    background-color: #fff;
+}
+
+
+
+
+/* =================================
+    page-two end
+================================= */
+
+
+
+
+

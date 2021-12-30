@@ -1,0 +1,733 @@
+/*
+====================================
+Medium Screen - Others
+====================================
+*/
+
+@media screen and (min-width: 1300px) and (max-width: 1800px) {
+   .header-right-one ul li a {
+      display: inline-block;
+      font-size: 16px;
+   }
+
+   .header-right-balance ul li img {
+      width: 36px;
+   }
+
+   .header-logo a img {
+      display: inline-block;
+      width: 65px;
+  }
+
+  header::after {
+   width: 56%;
+}
+
+.header-right-one ul li a::after {
+   height: 18px;
+}
+
+.coming-wrapper h2 {
+   font-size: 45px;
+   white-space: nowrap;
+}
+
+#comingsoon {
+   height: calc(100vh - 144px);
+}
+
+
+
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1300px) {
+   .header-logo a img {
+      width: 60px;
+   }
+   
+     .header-right-one {
+      margin-left: 0px;
+   }
+   
+   .header-right-one ul li a {
+      font-size: 13px;
+      margin-left: 13px;
+   }
+   
+   .header-right-one ul li a::after {
+      top: 21px;
+      height: 22px;
+   }
+   
+   .header-right-balance ul li img {
+      width: 40px;
+   }
+   
+   .header-right-balance ul li span {
+      font-size: 18px;
+   }
+   
+   .header-right-connect a {
+      font-size: 16px;
+   }
+
+   #comingsoon {
+      height: calc(100vh - 139px);
+   }
+   
+
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+.header-logo a img {
+   width: 60px;
+}
+
+  .header-right-one {
+   margin-left: 0px;
+}
+
+.header-right-one ul li a {
+   font-size: 13px;
+   margin-left: 13px;
+}
+
+.header-right-one ul li a::after {
+   top: 21px;
+   height: 22px;
+}
+
+.header-right-balance ul li img {
+   width: 28px;
+}
+
+.header-right-balance ul li span {
+   font-size: 14px;
+}
+
+.header-right-connect a {
+   font-size: 16px;
+}
+
+.coming-wrapper h2 {
+   font-size: 45px;
+   white-space: nowrap;
+}
+
+#comingsoon {
+   height: calc(100vh - 139px);
+}
+
+.coin-text {
+   padding: 0px 4px;
+}
+
+.cointext-two {
+   padding: 0px 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*
+====================================
+Small Screen - Tablate
+====================================
+*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+   .header-logo a img {
+      display: inline-block;
+      width: 70px;
+   }
+   
+   .header-wrapper,
+   .header-right {
+      display: block!important;
+   }
+   
+   header::after {
+      width: 100%;
+   }
+   
+   .header-right-one ul li {
+      display: block;
+   }
+   
+   .header-right-one ul li a {
+      margin-left: 0;
+      font-size: 18px;
+   }
+   
+   .header-right-one {
+      margin-left: 0;
+   }
+   
+   .header-right-two {
+      display: block;
+   }
+   
+   .header-right-balance ul li {
+      display: block;
+   }
+   
+   .header-right-balance ul {
+      text-align: left;
+   }
+   
+   .header-right-balance ul li:nth-child(2) {
+      margin: 0;
+   }
+   
+   .header-right-connect a {
+      margin-left: 0;
+   }
+   
+   .header-right {
+      position: fixed;
+      background-color: #3E4855;
+      width: 100%;
+      left: 0;
+      top: 0;
+      height: 100vh;
+      padding: 25px;
+      left: -100%;
+   }
+   
+   .header-right-one ul li a {
+      color: #fff;
+      margin: 6px 0px;
+   }
+   
+   .back span {
+      display: inline-block;
+      color: #fff;
+      font-size: 22px;
+      cursor: pointer;
+      margin-bottom: 15px;
+   }
+   
+   .header-right-one ul li a::after {
+      height: 3px;
+   }
+   
+   .welcome-left {
+      text-align: center;
+   }
+   
+   .welcome-text p br {
+      display: none;
+   }
+   
+   .welcome-btc p br {
+      display: none;
+   }
+   
+   .welcome-join p {
+      margin-left: 0;
+      text-align: center;
+   }
+   
+   .welcome-join span {
+      margin-left: auto;
+      margin-right: auto;
+   }
+   
+   .welcome-right img {
+      display: none;
+   }
+   
+   .lock-wrapper {
+      display: block;
+      text-align: center;
+   }
+   
+   .lock-left {
+      padding: 15px 0px;
+      border-bottom: 2px solid #3E4754;
+      border-right: 0;
+   }
+   
+   .lock-right ul li a {
+      display: inline-block;
+      font-size: 18px;
+      text-transform: uppercase;
+      color: #3E4855;
+      background-color: #68EBCA;
+      border-radius: 7px;
+      padding: 10px 15px;
+      margin-left: 8px;
+   }
+   
+   .lock-right {
+      margin-top: 20px;
+      padding-bottom: 25px;
+   }
+   
+   .footer-wrapper {
+      display: block;
+      text-align: center;
+   }
+   
+   .footer-right ul li {
+      margin: 0px 10px;
+   }
+   
+   .footer-right ul li a {
+      font-size: 24px;
+   }
+   
+   .footer-left p {
+      margin-bottom: 15px;
+   }
+
+   .coming-wrapper h2 {
+      font-size: 45px;
+      white-space: nowrap;
+   }
+   
+   #comingsoon {
+      height: calc(100vh - 188px);
+   }
+
+   .coin-text {
+      padding: 0px 0px;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*
+====================================
+Small Screen - Mobile
+====================================
+*/
+@media screen and (min-width: 576px) and (max-width: 767px) {	
+
+
+   .header-logo a img {
+      display: inline-block;
+      width: 70px;
+   }
+   
+   .header-wrapper,
+   .header-right {
+      display: block!important;
+   }
+   
+   header::after {
+      width: 100%;
+   }
+   
+   .header-right-one ul li {
+      display: block;
+   }
+   
+   .header-right-one ul li a {
+      margin-left: 0;
+      font-size: 18px;
+   }
+   
+   .header-right-one {
+      margin-left: 0;
+   }
+   
+   .header-right-two {
+      display: block;
+   }
+   
+   .header-right-balance ul li {
+      display: block;
+   }
+   
+   .header-right-balance ul {
+      text-align: left;
+   }
+   
+   .header-right-balance ul li:nth-child(2) {
+      margin: 0;
+   }
+   
+   .header-right-connect a {
+      margin-left: 0;
+   }
+   
+   .header-right {
+      position: fixed;
+      background-color: #3E4855;
+      width: 100%;
+      left: 0;
+      top: 0;
+      height: 100vh;
+      padding: 25px;
+      left: -100%;
+   }
+   
+   .header-right-one ul li a {
+      color: #fff;
+      margin: 6px 0px;
+   }
+   
+   .back span {
+      display: inline-block;
+      color: #fff;
+      font-size: 22px;
+      cursor: pointer;
+      margin-bottom: 15px;
+   }
+   
+   .header-right-one ul li a::after {
+      height: 3px;
+   }
+   
+   .welcome-left {
+      text-align: center;
+   }
+   
+   .welcome-text p br {
+      display: none;
+   }
+   
+   .welcome-btc p br {
+      display: none;
+   }
+   
+   .welcome-join p {
+      margin-left: 0;
+      text-align: center;
+   }
+   
+   .welcome-join span {
+      margin-left: auto;
+      margin-right: auto;
+   }
+   
+   .welcome-right img {
+      display: none;
+   }
+   
+   .lock-wrapper {
+      display: block;
+      text-align: center;
+   }
+   
+   .lock-left {
+      padding: 15px 0px;
+      border-bottom: 2px solid #3E4754;
+      border-right: 0;
+   }
+   
+   .lock-right ul li a {
+      display: inline-block;
+      font-size: 10px;
+      text-transform: uppercase;
+      color: #3E4855;
+      background-color: #68EBCA;
+      border-radius: 7px;
+      padding: 10px 7px;
+      margin-left: 8px;
+   }
+   
+   .lock-right {
+      margin-top: 20px;
+      padding-bottom: 25px;
+   }
+   
+   .footer-wrapper {
+      display: block;
+      text-align: center;
+   }
+   
+   .footer-right ul li {
+      margin: 0px 10px;
+   }
+   
+   .footer-right ul li a {
+      font-size: 24px;
+   }
+   
+   .footer-left p {
+      margin-bottom: 15px;
+   }
+
+   .coming-wrapper h2 {
+      font-size: 45px;
+      white-space: nowrap;
+   }
+   
+   #comingsoon {
+      height: calc(100vh - 188px);
+   }
+
+   .coin-text {
+      padding: 0px 80px;
+   }
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*
+====================================
+Xtra Small Screen - Small Mobile
+====================================
+*/
+@media screen and (max-width: 576px) {
+
+.header-logo a img {
+   display: inline-block;
+   width: 70px;
+}
+
+.header-wrapper,
+.header-right {
+   display: block!important;
+}
+
+header::after {
+   width: 100%;
+}
+
+.header-right-one ul li {
+   display: block;
+}
+
+.header-right-one ul li a {
+   margin-left: 0;
+   font-size: 18px;
+}
+
+.header-right-one {
+   margin-left: 0;
+}
+
+.header-right-two {
+   display: block;
+}
+
+.header-right-balance ul li {
+   display: block;
+}
+
+.header-right-balance ul {
+   text-align: left;
+}
+
+.header-right-balance ul li:nth-child(2) {
+   margin: 0;
+}
+
+.header-right-connect a {
+   margin-left: 0;
+}
+
+.header-right {
+   position: fixed;
+   background-color: #3E4855;
+   width: 100%;
+   left: 0;
+   top: 0;
+   height: 100vh;
+   padding: 25px;
+   left: -100%;
+}
+
+.header-right-one ul li a {
+   color: #fff;
+   margin: 6px 0px;
+}
+
+.back span {
+   display: inline-block;
+   color: #fff;
+   font-size: 22px;
+   cursor: pointer;
+   margin-bottom: 15px;
+}
+
+.header-right-one ul li a::after {
+   height: 3px;
+}
+
+.welcome-left {
+   text-align: center;
+}
+
+.welcome-text p br {
+   display: none;
+}
+
+.welcome-btc p br {
+   display: none;
+}
+
+.welcome-join p {
+   margin-left: 0;
+   text-align: center;
+}
+
+.welcome-join span {
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.welcome-right img {
+   display: none;
+}
+
+.lock-wrapper {
+   display: block;
+   text-align: center;
+}
+
+.lock-left {
+   padding: 15px 0px;
+   border-bottom: 2px solid #3E4754;
+   border-right: 0;
+}
+
+.lock-right ul li a {
+   display: inline-block;
+   font-size: 10px;
+   text-transform: uppercase;
+   color: #3E4855;
+   background-color: #68EBCA;
+   border-radius: 7px;
+   padding: 10px 7px;
+   margin-left: 8px;
+}
+
+.lock-right {
+   margin-top: 20px;
+   padding-bottom: 25px;
+}
+
+.footer-wrapper {
+   display: block;
+   text-align: center;
+}
+
+.footer-right ul li {
+   margin: 0px 10px;
+}
+
+.footer-right ul li a {
+   font-size: 24px;
+}
+
+.footer-left p {
+   margin-bottom: 15px;
+}
+
+.coming-wrapper h2 {
+   font-size: 45px;
+   white-space: nowrap;
+}
+
+#comingsoon {
+   height: calc(100vh - 188px);
+}
+
+.coin-text {
+   padding: 0px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
